@@ -1,6 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Contact = () => {
     const [formData, setFormData] = useState({
@@ -20,11 +22,26 @@ export const Contact = () => {
             import.meta.env.VITE_PUBLIC_KEY)
             .then((result) => {
                 console.log('Message sent successfully:', result.text);
-                alert('Message sent successfully!');
+                toast.success('Message sent successfully! 🚀', {
+                    position: "top-center",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
                 setFormData({ name: "", email: "", message: "" }); // Reset form
-            }).catch((error) => {
+            })
+            .catch((error) => {
                 console.error('Error sending message:', error.text);
-                alert('Failed to send message. Please try again later.');
+                toast.error('Failed to send message. Please try again later.', {
+                    position: "top-center",
+                    autoClose: 3000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                });
             });
         }
 
@@ -81,5 +98,6 @@ export const Contact = () => {
                 </form>
             </div>
         </RevealOnScroll>
+        <ToastContainer />
     </section>
 };

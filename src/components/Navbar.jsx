@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                 <div className="flex items-center justify-between h-16">
                     <a href="#home" className="font-mono text-white text-xl font-bold">
                         {" "}
-                        keeper<span className="text-blue-500">.tech</span>{" "}
+                        <span className="text-blue-500">&lt;/&gt;</span> Keeper
                     </a>
 
                     <div 
@@ -42,6 +42,13 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         >
                             {" "}
                             Projects{" "}
+                        </a>
+                        <a 
+                            href="#certifications" 
+                            className="text-gray-300 hover:text-white transition-colors"
+                        >
+                            {" "}
+                            Certifications{" "}
                         </a>
                         <a 
                             href="#contact" 

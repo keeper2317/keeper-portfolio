@@ -1,29 +1,43 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+// Frontend Icons
+import { FaReact, FaVuejs, FaAngular, FaHtml5, FaCss3Alt, FaSass, FaJs } from "react-icons/fa";
+// Backend Icons
+import { FaPhp, FaPython, FaNodeJs, FaDatabase } from "react-icons/fa";
+// Other Icons
+import { 
+  SiTailwindcss, 
+  SiBootstrap, 
+  SiJquery, 
+  SiLaravel, 
+  SiDjango, 
+  SiMysql, 
+  SiPostgresql 
+} from "react-icons/si";
 
 export const About = () => {
 
     const frontendSkills = [
-        { name: 'React', icon: 'react-icon' },
-        { name: 'Vue', icon: 'vue-icon' },
-        { name: 'Angular', icon: 'angular-icon' },
-        { name: 'Tailwindcss', icon: 'tailwind-icon' },
-        { name: 'Bootstrap', icon: 'bootstrap-icon' },
-        { name: 'HTML', icon: 'html-icon' },
-        { name: 'CSS', icon: 'css-icon' },
-        { name: 'Sass', icon: 'sass-icon' },
-        { name: 'JavaScript', icon: 'javascript-icon' },
-        { name: 'jQuery', icon: 'jquery-icon' }
+        { name: 'React', icon: <FaReact className="inline mr-1" /> },
+        { name: 'Vue', icon: <FaVuejs className="inline mr-1" /> },
+        { name: 'Angular', icon: <FaAngular className="inline mr-1" /> },
+        { name: 'Tailwindcss', icon: <SiTailwindcss className="inline mr-1" /> },
+        { name: 'Bootstrap', icon: <SiBootstrap className="inline mr-1" /> },
+        { name: 'HTML', icon: <FaHtml5 className="inline mr-1" /> },
+        { name: 'CSS', icon: <FaCss3Alt className="inline mr-1" /> },
+        { name: 'Sass', icon: <FaSass className="inline mr-1" /> },
+        { name: 'JavaScript', icon: <FaJs className="inline mr-1" /> },
+        { name: 'jQuery', icon: <SiJquery className="inline mr-1" /> }
     ];
 
     const backendSkills = [
-        { name: 'PHP', icon: 'php-icon' },
-        { name: 'Laravel', icon: 'laravel-icon' },
-        { name: 'Python', icon: 'python-icon' },
-        { name: 'Django', icon: 'django-icon' },
-        { name: 'Node.js', icon: 'nodejs-icon' },
-        { name: 'SQL', icon: 'sql-icon' },
-        { name: 'MySQL', icon: 'mysql-icon' },
-        { name: 'PostgreSQL', icon: 'postgresql-icon' }
+        { name: 'PHP', icon: <FaPhp className="inline mr-1" /> },
+        { name: 'Laravel', icon: <SiLaravel className="inline mr-1" /> },
+        { name: 'Python', icon: <FaPython className="inline mr-1" /> },
+        { name: 'Django', icon: <SiDjango className="inline mr-1" /> },
+        { name: 'Node.js', icon: <FaNodeJs className="inline mr-1" /> },
+        { name: 'SQL', icon: <FaDatabase className="inline mr-1" /> },
+        { name: 'MySQL', icon: <SiMysql className="inline mr-1" /> },
+        { name: 'PostgreSQL', icon: <SiPostgresql className="inline mr-1" /> }
     ];
 
     return (
@@ -54,7 +68,7 @@ export const About = () => {
                                         hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                                         "
                                     >
-                                        {/* <i className={`icon-${tech.icon} mr-2`}></i> */}
+                                        {tech.icon}
                                         {tech.name}
                                     </span>
                                 ))}
@@ -71,7 +85,7 @@ export const About = () => {
                                         hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                                         "
                                     >
-                                        {/* <i className={`icon-${tech.icon} mr-2`}></i> */}
+                                        {tech.icon}
                                         {tech.name}
                                     </span>
                                 ))}
