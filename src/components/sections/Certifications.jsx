@@ -97,49 +97,48 @@ export const Certifications = () => {
         {
             title: "Analyze Data with Python",
             credentialId: "5e818a89-d170-46c2-8f57-c8ba4293767a",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/5e818a89-d170-46c2-8f57-c8ba4293767a/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/5e818a89-d170-46c2-8f57-c8ba4293767a/pdf",
+            credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718293420117/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "September 2022"
         },
         {
             title: "Build Python Web Apps with Flask",
             credentialId: "b21d907b-31c3-44fc-a5b8-a6117bbf7d8e",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/b21d907b-31c3-44fc-a5b8-a6117bbf7d8e/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/b21d907b-31c3-44fc-a5b8-a6117bbf7d8e/pdf",
+             credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718294829455/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "September 2022"
         },
         {
             title: "Visualize Data with Python",
             credentialId: "d6a7944b-167a-4f80-a89d-e80be9855513",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/d6a7944b-167a-4f80-a89d-e80be9855513/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/d6a7944b-167a-4f80-a89d-e80be9855513/pdf",
+            credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718293957088/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "September 2022"
         },
         {
             title: "Learn Basic Statistics with Python",
             credentialId: "2258a30a-2334-474e-98c2-1944ac9fb132",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/2258a30a-2334-474e-98c2-1944ac9fb132/pdf",
-            issuer: "Department of Information and Communications Technology - Philippines",
-            date: "August 2022"
-        },
-        {
-            title: "Learn Basic Statistics with Python",
-            credentialId: "2258a30a-2334-474e-98c2-1944ac9fb132",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/2258a30a-2334-474e-98c2-1944ac9fb132/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/2258a30a-2334-474e-98c2-1944ac9fb132/pdf",
+            credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718293770671/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "August 2022"
         },
         {
             title: "Programming for Beginners Using Python",
             credentialId: "8bfa17ef-600f-415b-b83c-3aeaf8192a43",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/8bfa17ef-600f-415b-b83c-3aeaf8192a43/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/8bfa17ef-600f-415b-b83c-3aeaf8192a43/pdf",
+            credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718294698088/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "August 2022"
         },
         {
             title: "Programming for Intermediate Users Using Python",
             credentialId: "9c836371-729b-4400-9ad9-2e6e2621664c",
-            credentialUrl: "https://courses.buri.io/view/user/certificate/9c836371-729b-4400-9ad9-2e6e2621664c/pdf",
+            // credentialUrl: "https://courses.buri.io/view/user/certificate/9c836371-729b-4400-9ad9-2e6e2621664c/pdf",
+            credentialUrl: "https://www.linkedin.com/in/keeperjhoi-floresca-164858313/details/certifications/1718294612589/single-media-viewer/?profileId=ACoAAE-um9wBzgw1ziVAPeWytLCj_7AtkafxJ9I",
             issuer: "Department of Information and Communications Technology - Philippines",
             date: "August 2022"
         },

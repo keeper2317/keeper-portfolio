@@ -8,6 +8,7 @@ import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
 import { Certifications } from './components/sections/Certifications';
+import { Footer } from './components/Footer';
 import './index.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Projects />
       <Certifications />
       <Contact />
+      <Footer />
     </div>
     </>
   )
